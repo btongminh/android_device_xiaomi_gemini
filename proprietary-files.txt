@@ -1,5 +1,5 @@
 # ADSP
-bin/adsprpcd
+#bin/adsprpcd
 vendor/lib64/libadsprpc.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libfastcvadsp_stub.so
@@ -64,10 +64,10 @@ vendor/lib/libaudcal.so
 vendor/lib/libaudiodevarb.so
 
 # Bluetooth
-bin/btnvtool
-bin/dun-server
+#bin/btnvtool
+#bin/dun-server
 bin/hci_qcomm_init
-bin/wcnss_filter
+#bin/wcnss_filter
 vendor/lib64/libbtnv.so
 vendor/lib64/libCommandSvc.so
 vendor/lib/libbtnv.so
@@ -85,7 +85,7 @@ etc/firmware/rampatch_tlv_3.0.tlv
 etc/firmware/rampatch_tlv_3.2.tlv
 
 # Camera
-bin/mm-qcamera-daemon
+#bin/mm-qcamera-daemon
 lib/hw/camera.msm8996.so
 lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
@@ -336,10 +336,10 @@ vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
 
 # Charger
-bin/hvdcp_opti
+#bin/hvdcp_opti
 
 # CNE
-bin/cnd
+#bin/cnd
 etc/cne/SwimConfig.xml
 etc/cne/andsfCne.xml
 etc/permissions/ConnectivityExt.xml
@@ -375,7 +375,7 @@ vendor/lib/libxml.so
 -etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
 # DPM
-bin/dpmd
+#bin/dpmd
 etc/dpm/dpm.conf
 etc/dpm/nsrm/NsrmConfiguration.xml
 etc/permissions/com.qti.dpmframework.xml
@@ -396,8 +396,8 @@ vendor/lib/libdpmnsrm.so
 vendor/lib/libdpmtcm.so
 
 # DRM and SEE
-bin/qseecomd
-vendor/bin/qseeproxydaemon
+#bin/qseecomd
+#vendor/bin/qseeproxydaemon
 vendor/lib64/lib-sec-disp.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
@@ -414,7 +414,7 @@ vendor/lib64/libssd.so
 vendor/lib/libQSEEComAPI.so
 
 # Fingerprint
-bin/qvop-daemon
+#bin/qvop-daemon
 lib64/hw/fingerprint.fpc.so
 lib/hw/fingerprint.fpc.so
 vendor/lib64/libqvop-service.so
@@ -425,10 +425,10 @@ vendor/lib64/hw/gatekeeper.msm8996.so
 vendor/lib/hw/gatekeeper.msm8996.so
 
 # GPS
-bin/loc_launcher
-bin/tloc_daemon
-bin/xtwifi-client
-bin/xtwifi-inet-agent
+#bin/loc_launcher
+#bin/tloc_daemon
+#bin/xtwifi-client
+#bin/xtwifi-inet-agent
 etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qualcomm.location.xml
 framework/com.qti.location.sdk.jar
@@ -437,7 +437,7 @@ lib64/libloc_ds_api.so
 -lib/libloc_api_v02.so
 lib/libloc_ds_api.so
 -priv-app/com.qualcomm.location/com.qualcomm.location.apk
-vendor/bin/slim_daemon
+#vendor/bin/slim_daemon
 vendor/lib64/hw/flp.default.so
 vendor/lib64/libalarmservice_jni.so
 vendor/lib64/libasn1cper.so
@@ -549,10 +549,10 @@ etc/firmware/a530v3_gpmu.fw2
 etc/firmware/a530v3_seq.fw2
 
 # IMS
-bin/imscmservice
-bin/imsdatadaemon
-bin/imsqmidaemon
-bin/ims_rtp_daemon
+#bin/imscmservice
+#bin/imsdatadaemon
+#bin/imsqmidaemon
+#bin/ims_rtp_daemon
 -vendor/app/ims/ims.apk|94bb6f3bc031e4d3ea81396352c5f085bc5bbb75
 -vendor/app/imssettings/imssettings.apk|9012208878e4542e9a2332b719d0759bea5e14c0
 vendor/lib64/libimscamera_jni.so|653b5ea60d42941b32c4c9a6a6e9edcde448adea
@@ -580,7 +580,7 @@ vendor/lib64/librcc.so
 vendor/lib64/libvoice-svc.so
 
 # IPA
-bin/ipacm-diag
+#bin/ipacm-diag
 
 # IRDA
 lib64/hw/consumerir.msm8996.so
@@ -627,11 +627,11 @@ vendor/lib/libconnctrl.so
 vendor/firmware/libpn548ad_fw.so
 
 # Perf
-bin/energy-awareness
-bin/iop
-bin/msm_irqbalance
+#bin/energy-awareness
+#bin/iop
+#bin/msm_irqbalance
 lib64/libqti-iop.so
-vendor/bin/perfd
+#vendor/bin/perfd
 vendor/lib64/libqc-opt.so
 vendor/lib64/libqti-iop-client.so
 vendor/lib64/libqti-perfd-client.so
@@ -640,18 +640,18 @@ vendor/lib/libqti-iop-client.so
 vendor/lib/libqti-perfd-client.so
 
 # Peripheral manager
-bin/pm-proxy
-bin/pm-service
+#bin/pm-proxy
+#bin/pm-service
 vendor/lib64/libperipheral_client.so
 vendor/lib/libperipheral_client.so
 
 # Postprocessing
-bin/displayfeature
+#bin/displayfeature
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
 -vendor/app/colorservice/colorservice.apk
-vendor/bin/mm-pp-daemon
-vendor/bin/mm-pp-dpps
+#vendor/bin/mm-pp-daemon
+#vendor/bin/mm-pp-dpps
 vendor/lib64/libdisp-aba.so
 vendor/lib64/libmm-als.so
 vendor/lib64/libmm-disp-apis.so
@@ -662,7 +662,7 @@ bin/irsc_util
 etc/permissions/qti_permissions.xml
 -lib64/libqminvapi.so
 -lib/libqminvapi.so
-vendor/bin/pd-mapper
+#vendor/bin/pd-mapper
 vendor/lib64/libdiag.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
@@ -706,9 +706,9 @@ bin/netmgrd
 bin/port-bridge
 bin/qmuxd
 bin/radish
-bin/rmt_storage
-bin/mmbn-daemon
-bin/tftp_server
+#bin/rmt_storage
+#bin/mmbn-daemon
+#bin/tftp_server
 etc/modem/Diag.cfg
 etc/permissions/embms.xml
 etc/permissions/qcnvitems.xml
@@ -720,7 +720,7 @@ framework/embmslibrary.jar
 framework/qti-telephony-common.jar|97d23b52db3773005e51eac7b9df1701c99a416c
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-vendor/bin/qti
+#vendor/bin/qti
 vendor/lib64/libconfigdb.so
 vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
@@ -733,7 +733,7 @@ vendor/lib64/libsystem_health_mon.so
 vendor/qcril.db
 
 # Sensors
-bin/sensors.qcom
+#bin/sensors.qcom
 vendor/lib64/hw/activity_recognition.msm8996.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/libsensor_user_cal.so
@@ -748,14 +748,14 @@ vendor/lib/sensors.oem.so
 vendor/lib/sensors.ssc.so
 
 # Thermal
-vendor/bin/thermal-engine
+#vendor/bin/thermal-engine
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 -vendor/lib/libthermalclient.so
 
 # Time services
 -app/TimeService/TimeService.apk
-bin/time_daemon
+#bin/time_daemon
 vendor/lib64/libTimeService.so
 -vendor/lib64/libtime_genoff.so
 vendor/lib/libTimeService.so
@@ -767,5 +767,5 @@ vendor/lib/libwvdrm_L3.so|7e77482481197997294a834bfbc817a01b6075cd
 vendor/lib/mediadrm/libwvdrmengine.so|6c0954f6b6f33d25d3a2727495df93ee59b5f18f
 
 # WiFi
-bin/cnss-daemon
-bin/cnss_diag
+#bin/cnss-daemon
+#bin/cnss_diag
